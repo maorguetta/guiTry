@@ -13,6 +13,10 @@ public class Main {
 		
 		HashMap<String, String> hash = new HashMap<>();
 		hash.put("a", "alef");
+		
+		
+		int i;
+		int k;
 		hash.put("b", "bet");
 		System.out.println(hash.get("A".toLowerCase()));
 		Thread t = new Thread(new Runnable() {
